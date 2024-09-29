@@ -1,0 +1,50 @@
+/* Signup.css */
+
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?restaurant');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.form-control {
+    height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 16px;
+}
+
+.btn-outline-secondary {
+    border-color: #28a745;
+    color: #28a745;
+    font-size: 16px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #28a745;
+    color: white;
+}
